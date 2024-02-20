@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    border-bottom: solid 1px grey;
+}
+
+header > img {
+    width: 600px;
+}
+
+h1, h2, p, button {
+    margin: 0px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    border-color: red;
+}
+
+.texts > h1 {
+    font-size: 4rem;
+}
+
+.texts > h1 > span {
+    color: red
+}
+
+.texts {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0px 100px 0px;
+    align-items: baseline;
+    justify-content: center;
+    gap: 2rem;
+}
